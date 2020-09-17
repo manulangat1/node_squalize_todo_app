@@ -1,10 +1,11 @@
 {
   "development": {
     "username": "manulangat",
-    "password": "3050Manu",
+    "password": "3050manu",
     "database": "todos_dev",
     "host": "127.0.0.1",
     "port":5432,
+
     "dialect": "postgres"
   },
   "test": {
