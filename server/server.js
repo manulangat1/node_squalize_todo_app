@@ -15,4 +15,4 @@ if (process.NODE_ENV === 'developement'){
 app.use('/', (req,res) => res.send('Hello'))
 
 const PORT = process.env.PORT 
-app.listen(PORT,console.log(`Kuungana running in ${process.env.NODE_ENV} mode: on port ${PORT}`))
+app.listen(PORT,console.log(`Kuungana running in ${process.env.NODE_ENV} mode: on port ${PORT}`.yellow.bold))
