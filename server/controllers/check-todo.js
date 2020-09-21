@@ -2,7 +2,7 @@ const Todo = require('../models').Todo
 
 exports.getByName = async (req,res) => {
     try{
-        const todo = await Todo.findOne({where:{'title':'emmanuelthed'}})
+        const todo = await Todo.findAll({where:{'title':'emmanuelthed'}})
         return res.status(200).json({
             success:true,
             message:todo
